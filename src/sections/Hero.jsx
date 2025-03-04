@@ -54,7 +54,7 @@ export default function Hero() {
 
   return (
     <div>
-      <div className="w-[400px] ">
+      <div className="lg:w-[400px] ">
         <h1 className="lg:!text-5xl">Ik Mba</h1>
         <h2 className="">Software engineer</h2>
         <h6 className="my-6">

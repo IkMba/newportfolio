@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
-    <div className="mt-18 mb-12 lg:mb-0 w-[85%] lg:w-[70%]">
+    <div className="mt-18 mb-12 lg:mb-0 lg:w-[70%]">
       <p>
         Built by yours truly using{" "}
         <span className="text-teal2 font-bold">React,Tailwind CSS</span>, coded

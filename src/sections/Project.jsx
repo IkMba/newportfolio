@@ -17,16 +17,15 @@ export default function Project() {
             const stickyOffset = containerRef.current.offsetTop;
             const target = document.getElementById('projects')
             const rect = target.getBoundingClientRect();
-            console.log(rect.bottom)
             if (window.pageYOffset > stickyOffset) {
               setIsSticky(true);
             } 
             else {
               setIsSticky(false);
             }
-            if  (rect.bottom <= 0 || rect.top >= window.innerHeight){
-              setIsSticky(false);
-            }
+            // if  (rect.bottom <= 0 || rect.top >= window.innerHeight){
+            //   setIsSticky(false);
+            // }
           }
         };
         

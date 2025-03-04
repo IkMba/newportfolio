@@ -15,23 +15,15 @@ export default function About() {
         const target = document.getElementById('about')
         const rect = target.getBoundingClientRect();
 
-        // if (rect.top <= 0 ){
-        //   setIsSticky(true);
-        // } 
-        // else if (rect.bottom <= 0 || rect.top >= window.innerHeight){
-        //   setIsSticky(false);
-        //   console.log('Element is no longer in view!');
-        // } 
         if (window.pageYOffset > stickyOffset) {
 
           setIsSticky(true);
         } else {
           setIsSticky(false);
         }
-        if  (rect.bottom <= 0 || rect.top >= window.innerHeight){
-            setIsSticky(false);
-            console.log('Element is no longer in view!');
-          }
+        // if  (rect.bottom <= 0 || rect.top >= window.innerHeight){
+        //     setIsSticky(false);
+        //   }
       }
     };
     

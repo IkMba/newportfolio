@@ -23,9 +23,9 @@ export default function Experience() {
         } else {
           setIsSticky(false);
         }
-        if (rect.bottom <= 0 || rect.top >= window.innerHeight) {
-          setIsSticky(false);
-        }
+        // if (rect.bottom <= 0 || rect.top >= window.innerHeight) {
+        //   setIsSticky(false);
+        // }
       }
     };
 

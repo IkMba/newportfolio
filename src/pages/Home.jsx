@@ -14,10 +14,10 @@ export default function Home() {
 
   return (
     <div className=' lg:flex lg:h-screen overflow-hidden'>
-      <div className='py-8 px-6 lg:pl-24 lg:py-20 lg:pr-0 lg:w-[45%]'>
+      <div className='py-8 px-4 lg:pl-24 lg:py-20 lg:pr-0 lg:w-[45%]'>
       <Hero />
       </div>
-      <div className='scrollable-content py-8 px-6 lg:w-[55%] lg:pr-12 lg:py-20 lg:h-screen lg:overflow-y-auto'>
+      <div className='scrollable-content py-8 px-4 lg:w-[55%] lg:pr-12 lg:py-20 lg:h-screen lg:overflow-y-auto'>
         <About />
         <Experience />
         <Project />

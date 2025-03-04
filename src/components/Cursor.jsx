@@ -14,6 +14,7 @@ const Cursor = () => {
     };
 
     window.addEventListener("mousemove", handleMouseMove);
+    window.addEventListener("scroll", handleMouseMove);
 
     return () => {
       window.removeEventListener("mousemove", handleMouseMove);
@@ -49,8 +50,7 @@ const Cursor = () => {
   }, [mousePosition]);
 
   return (
-    <div >
-
+    <div>
       {/* Cursor effect elements */}
       <div className="fixed top-0 left-0 w-full h-full pointer-events-none">
         <div
