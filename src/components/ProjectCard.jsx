@@ -2,7 +2,7 @@ import React from "react";
 import Button from "./Button";
 import ArrowupIcon from "../icons/ArrowupIcon";
 import { Link } from "react-router-dom";
-import GithubIcon from "../icons/githubIcon";
+import GithubIcon from "../icons/GithubIcon";
 
 export default function ProjectCard({ project }) {
   const {
