@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import GithubIcon from "../icons/githubIcon";
+import GithubIcon from "../icons/GithubIcon";
 import LinkedinIcon from "../icons/linkedinIcon";
 import CodepenIcon from "../icons/codepenIcon";
 import InstagramIcon from "../icons/instagramIcon";
@@ -53,13 +53,14 @@ export default function Hero() {
   }, []);
 
   return (
-    <div >
+    <div>
       <div className="w-[400px] ">
-      <h1 className="lg:!text-5xl">Ikechukwu Mba</h1>
-      <h2 className="">Software engineer</h2>
-      <h6 className="my-6">
-        I am a fullstack (backend heavy) engineer. I build scalable,secure and performant systems.
-      </h6>
+        <h1 className="lg:!text-5xl">Ikechukwu Mba</h1>
+        <h2 className="">Software engineer</h2>
+        <h6 className="my-6">
+          I am a fullstack (backend heavy) engineer. I build scalable,secure and
+          performant systems.
+        </h6>
       </div>
 
       <nav className="hidden lg:block my-20">
@@ -86,20 +87,45 @@ export default function Hero() {
         </ul>
       </nav>
       <div className=" [&>:hover]:!text-teal1 flex gap-8 items-center">
-        <Link to="mailto:ikmba321@gmail.com" target="_blank" rel="noopener noreferrer" className="!text-teal2">
+        <Link
+          to="mailto:ikmba321@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="!text-teal2"
+        >
           <EmailIcon />
         </Link>
-        <Link to="https://www.github.com/IkMba" target="_blank" rel="noopener noreferrer" className="!text-teal2">
+        <Link
+          to="https://www.github.com/IkMba"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="!text-teal2"
+        >
           <GithubIcon />
         </Link>
-        <Link to="https://www.linkedin.com/in/ik-mba" target="_blank" rel="noopener noreferrer" className="!text-teal2">
+        <Link
+          to="https://www.linkedin.com/in/ik-mba"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="!text-teal2"
+        >
           {" "}
           <LinkedinIcon />
         </Link>
-        <Link to="https://www.codepen.io" target="_blank" rel="noopener noreferrer" className="!text-teal2">
+        <Link
+          to="https://www.codepen.io"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="!text-teal2"
+        >
           <CodepenIcon />
         </Link>
-        <Link to="https://www.instagram.com/ik.mba" target="_blank" rel="noopener noreferrer" className="!text-teal2">
+        <Link
+          to="https://www.instagram.com/ik.mba"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="!text-teal2"
+        >
           <InstagramIcon />
         </Link>
       </div>
