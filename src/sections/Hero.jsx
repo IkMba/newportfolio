@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 import GithubIcon from "../icons/GithubIcon";
-import LinkedinIcon from "../icons/linkedinIcon";
-import CodepenIcon from "../icons/codepenIcon";
-import InstagramIcon from "../icons/instagramIcon";
+import LinkedinIcon from "../icons/LinkedinIcon";
+import CodepenIcon from "../icons/CodepenIcon";
+import InstagramIcon from "../icons/InstagramIcon";
 import { Link } from "react-router-dom";
-import EmailIcon from "../icons/emailIcon";
+import EmailIcon from "../icons/EmailIcon";
 
 export default function Hero() {
   const [activeSection, setActiveSection] = useState("about");
