@@ -30,7 +30,7 @@ export const experienceData = [
     link: "https://bizmarrow.com",
   },
   {
-    date: "2022",
+    date: "2022 — 2022",
     title: "Full stack developer",
     org: "Gomycode internship",
     detail:

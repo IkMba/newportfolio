@@ -63,7 +63,7 @@ export default function Experience() {
         ))}
       </div>
       <Link
-        to="britchiangresume.pdf"
+        to="/IkMbaResume.pdf" 
         className="mt-6 hover:!text-lav2 cursor-pointer px-4" target="_blank" rel="noopener noreferrer"
       >
         View Resume

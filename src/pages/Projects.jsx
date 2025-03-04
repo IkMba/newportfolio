@@ -31,7 +31,7 @@ const ProjectsPage = () => {
             <span>
               <ArrowLeftIcon />
             </span>{" "}
-            Ikechukwu Mba
+            Ik Mba
           </Link>
           <h1 className="text-4xl lg:!text-5xl font-bold text-slate-100 mb-4">
             All Projects

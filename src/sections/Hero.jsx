@@ -55,7 +55,7 @@ export default function Hero() {
   return (
     <div>
       <div className="w-[400px] ">
-        <h1 className="lg:!text-5xl">Ikechukwu Mba</h1>
+        <h1 className="lg:!text-5xl">Ik Mba</h1>
         <h2 className="">Software engineer</h2>
         <h6 className="my-6">
           I am a fullstack (backend heavy) engineer. I build scalable,secure and
@@ -104,7 +104,7 @@ export default function Hero() {
           <GithubIcon />
         </Link>
         <Link
-          to="https://www.linkedin.com/in/ik-mba"
+          to="https://www.linkedin.com/in/ik-mba-91a94520a"
           target="_blank"
           rel="noopener noreferrer"
           className="!text-teal2"

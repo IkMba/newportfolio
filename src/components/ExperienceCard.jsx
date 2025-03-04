@@ -7,7 +7,7 @@ export default function ExperienceCard({experience}) {
     const {date,title,org,detail,tools,link} = experience
   return (
     <div className='exp-card group mt-8 px-4 py-4 rounded-md md:flex gap-8 transition delay-100 ease-in-out'>
-      <p className='uppercase text-nowrap md:mt-1'>{date}</p>
+      <p className='uppercase text-nowrap md:mt-1 lg:min-w-[100px]'>{date}</p>
       <div>
       <Link to={link} className='group-hover:!text-lav2'>{title} . {org}<span><ArrowupIcon/></span></Link>
       <p className='my-2'>{detail}</p>
