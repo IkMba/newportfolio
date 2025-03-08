@@ -97,6 +97,7 @@ const ProjectsPage = () => {
                         <a
                           href={project.links.github}
                           className="hover:text-emerald-400 transition-colors"
+                          target="_blank" rel="noopener noreferrer"
                         >
                           <GithubIcon />
                         </a>
@@ -105,6 +106,7 @@ const ProjectsPage = () => {
                         <a
                           href={project.links.external}
                           className="hover:text-emerald-400 transition-colors"
+                          target="_blank" rel="noopener noreferrer"
                         >
                           <ArrowLinkIcon />
                         </a>
