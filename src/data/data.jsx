@@ -42,6 +42,15 @@ export const experienceData = [
 
 export const projectsData = [
   {
+    title: "GoRide: A hide hailing service",
+    detail:
+      "This ride-booking system is a scalable, microservices-based architecture designed to efficiently match riders with drivers while handling payments and real-time tracking ",
+    tools: ["Nodejs", "Express", "MongoDb", "RabbitMq", "Docker"],
+    image: resortImg,
+    link: "https://www.github.com/IkMba/GoRide",
+    githubLink: "https://www.github.com/IkMba/GoRide",
+  },
+  {
     title: "Flight booking system",
     detail:
       "A flight booking api using microservice architecture. There are four services: the flights service, the flights booking service and the api gateway, each having their own databases. The system was developed using nodejs and MySQL",
@@ -70,15 +79,15 @@ export const projectsData = [
     githubLink2: "https://www.github.com/IkMba/Zenpay-backend",
   },
   {
-    title: "MernEats",
+    title: "CRM-Backend",
     detail:
-      "Merneats is a food ordering web application. Users can create an account and log in, search for restaurants and order food from restaurants. Authentication is done using Auth0.",
-    tools: ["Typescript", "React", "Shadcn", "Nodejs", "MongoDb", "Auth0"],
-    image: takeawayImg,
-    link: "https://food-ordering-platform-frontend-j1ui.onrender.com",
-    githubLink1: "https://www.github.com/IkMba/Takeaway-frontend",
-    githubLink2: "https://www.github.com/IkMba/Takeaway-backend",
+      "The backend for a CRM application.",
+    tools: ["Typescript","Nodejs", "Express", "MongoDb"],
+    image: resortImg,
+    link: "https://www.github.com/IkMba/CRM-Backend",
+    githubLink: "https://www.github.com/IkMba/CRM-Backend",
   },
+  
 ];
 
 export const blogsData = [
@@ -106,6 +115,17 @@ export const blogsData = [
 ];
 
 export const projects = [
+  {
+    year: 2025,
+    title: "GoRide: A hide hailing service",
+description: " A ride hailing service",
+    builtWith: ["Nodejs", "Express", "MongoDb", "RabbitMq", "Docker"],
+    links: {
+      external: "https://www.github.com/IkMba/GoRide",
+      github: "https://www.github.com/IkMba/GoRide",
+    },
+    type: "Backend"
+  },
   {
     year: 2025,
     title: "Flight booking system",
@@ -140,6 +160,17 @@ export const projects = [
       external: "https://zenpay-tau.vercel.app/",
     },
     type: "Fullstack",
+  },
+  {
+    year: 2024,
+    title: "CRM-Backend",
+description: "The backend for a CRM application.",
+    builtWith: ["Typescript", "Nodejs", "Express", "MongoDb"],
+    links: {
+      external: "https://www.github.com/IkMba/CRM-Backend",
+      github: "https://www.github.com/IkMba/CRM-Backend",
+    },
+    type: "Backend"
   },
   {
     year: 2024,
